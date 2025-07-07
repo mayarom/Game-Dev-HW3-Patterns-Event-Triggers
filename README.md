@@ -1,5 +1,21 @@
 # Unity week 2: Formal elements
 
+## 🧩 Task Implemented – Assignment 2: Score UI using Canvas
+
+As part of the HW_2_A assignment, I implemented **Task 2** from the optional changes list:
+
+> ✳️ _"The player's score should no longer appear above the spaceship, but instead at a fixed position on the screen (e.g., top-right corner). The score display must remain correctly positioned even when the screen size or orientation changes. Use a Canvas."_
+
+### ✔️ What was implemented:
+- Created a **Canvas** with a `TextMeshProUGUI` text element positioned at the **top-right corner** of the screen.
+- Used appropriate **anchors and offsets** to ensure responsive positioning for any screen size.
+- Attached a `NumberField` script to the text element to allow displaying numbers.
+- Attached a `GameStatusReader` script that **updates the score live from the `GAME_STATUS.playerScore` static variable**.
+- Verified that score updates appear instantly on screen during gameplay.
+- Used `TextMeshPro` for sharper text rendering and added a `.gitignore` file to exclude unnecessary Unity-generated files from the repository.
+
+---
+
 A project with step-by-step scenes illustrating some of the formal elements of game development in Unity, including: 
 
 * Prefabs for instantiating new objects;
@@ -22,8 +38,6 @@ When you first open this project, you may not see the text in the score field.
 This is because `TextMeshPro` is not in the project.
 The Unity Editor should hopefully prompt you to import TextMeshPro;
 once you do this, re-open the scenes, and you should be able to see the texts.
-
-
 
 ## Credits
 
