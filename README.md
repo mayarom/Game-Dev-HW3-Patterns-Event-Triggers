@@ -1,4 +1,4 @@
-# Unity week 2: Formal elements
+# Unity Homework 3 – Gameplay Patterns and Triggers
 
 ## 🧩 Task Implemented – Assignment 2: Score UI using Canvas
 
