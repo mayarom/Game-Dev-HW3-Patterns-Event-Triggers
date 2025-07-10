@@ -2,6 +2,9 @@
 
 ## 🧩 Task Implemented – Assignment 2: Score UI using Canvas
 
+**Game link on Itch.io:**
+https://mayarom.itch.io/hw3-game-enhancement-mayarom
+
 HW3 assignment, I implemented **Task 2** from the optional changes list:
 
 > ✳️ _"The player's score should no longer appear above the spaceship, but instead at a fixed position on the screen (e.g., top-right corner). The score display must remain correctly positioned even when the screen size or orientation changes. Use a Canvas."_
